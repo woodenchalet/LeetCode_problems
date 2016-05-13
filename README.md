@@ -4,7 +4,7 @@
 Python 2.7.10
 
 ### First iteration
-Will be just sovle the question. With acceptable Time complexity.
+Will be just solve the question. With acceptable Time complexity.
 
 ### Questions table
 | question      | unit test      | Runtime beat  |
