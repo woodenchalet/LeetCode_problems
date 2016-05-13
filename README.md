@@ -11,5 +11,5 @@ Will be just solve the question. With acceptable Time complexity.
 | ------------- |:-------------:| -----:        |
 | 3. Longest Substring Without Repeating Characters| Yes         | 76.89%        |
 | 283. Move zeros| Yes         | 19.68%        |
-| 1. Two Sum| Yes         | 16.32%        |
-| 2. Add Two Numbers  | Yes         | 10.94%        |
+| 1. Two Sum| No         | 16.32%        |
+| 2. Add Two Numbers  | No         | 10.94%        |
