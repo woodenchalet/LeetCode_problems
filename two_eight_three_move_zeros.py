@@ -1,6 +1,3 @@
-test_list = [0, 0, 1]
-
-
 def move_zeroes(nums):
     """
     :type nums: List[int]
@@ -15,8 +12,4 @@ def move_zeroes(nums):
         nums.remove(0)
         nums.append(0)
 
-    print nums
     return nums
-
-
-move_zeroes(test_list)
