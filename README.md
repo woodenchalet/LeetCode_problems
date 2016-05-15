@@ -13,3 +13,4 @@ Will be just solve the question. With acceptable Time complexity.
 | 283. Move zeros| Yes         | 19.68%        |
 | 1. Two Sum| No         | 16.32%        |
 | 2. Add Two Numbers  | No         | 10.94%        |
+| 34. Search for a Range   | Yes         | 16.30%        |
