@@ -1,5 +1,6 @@
 # Leetcode questions
 [![Build Status](https://travis-ci.org/woodenchalet/LeetCode_problems.svg?branch=master)](https://travis-ci.org/woodenchalet/LeetCode_problems/builds/)
+[![Motto](https://img.shields.io/badge/motto-good%20good%20study%2Cday%20day%20up-red.svg)](https://en.wikipedia.org/wiki/Day_Day_Up)
 ### Programming language
 
 Python 2.7.10
