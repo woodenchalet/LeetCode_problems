@@ -2,9 +2,6 @@
 [![Build Status](https://travis-ci.org/woodenchalet/LeetCode_problems.svg?branch=master)](https://travis-ci.org/woodenchalet/LeetCode_problems/builds/)
 [![Python](https://img.shields.io/badge/python-2.7.10-blue.svg)](https://www.python.org/)
 [![Motto](https://img.shields.io/badge/motto-good%20good%20study%2C%20day%20day%20up-red.svg)](https://en.wikipedia.org/wiki/Day_Day_Up)
-### Programming language
-
-Python 2.7.10
 
 ### First iteration
 Will be just solve the question. With acceptable Time complexity.
