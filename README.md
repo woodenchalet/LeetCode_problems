@@ -10,8 +10,8 @@ Will be just solve the question. With acceptable Time complexity.
 ### Questions table
 | question      | unit test      | Runtime beat  |
 | ------------- |:-------------:| -----:        |
-| 3. Longest Substring Without Repeating Characters| Yes         | 76.89%        |
-| 283. Move zeros| Yes         | 19.68%        |
-| 1. Two Sum| No         | 16.32%        |
-| 2. Add Two Numbers  | No         | 10.94%        |
-| 34. Search for a Range   | Yes         | 16.30%        |
+| [3. Longest Substring Without Repeating Characters](https://github.com/woodenchalet/LeetCode_problems/blob/master/three_longest_substring.py)| Yes         | 76.89%        |
+| [283. Move zeros](https://github.com/woodenchalet/LeetCode_problems/blob/master/two_eight_three_move_zeros.py)| Yes         | 19.68%        |
+| [1. Two Sum](https://github.com/woodenchalet/LeetCode_problems/blob/master/previously_solved.py)| No         | 16.32%        |
+| [2. Add Two Numbers](https://github.com/woodenchalet/LeetCode_problems/blob/master/previously_solved.py)  | No         | 10.94%        |
+| [34. Search for a Range](https://github.com/woodenchalet/LeetCode_problems/blob/master/three_four_search_range.py)   | Yes         | 16.30%        |
