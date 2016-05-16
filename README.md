@@ -1,4 +1,5 @@
 # Leetcode questions
+[![Build Status](https://travis-ci.org/woodenchalet/LeetCode_problems.svg?branch=master)](https://travis-ci.org/woodenchalet/LeetCode_problems/builds/)
 ### Programming language
 
 Python 2.7.10
