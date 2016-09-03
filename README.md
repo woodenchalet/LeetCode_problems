@@ -14,3 +14,4 @@ Will be just solve the question. With acceptable Time complexity.
 | [1. Two Sum](https://github.com/woodenchalet/LeetCode_problems/blob/master/previously_solved.py)| No         | 16.32%        |
 | [2. Add Two Numbers](https://github.com/woodenchalet/LeetCode_problems/blob/master/previously_solved.py)  | No         | 10.94%        |
 | [34. Search for a Range](https://github.com/woodenchalet/LeetCode_problems/blob/master/three_four_search_range.py)   | Yes         | 16.30%        |
+| [26. Remove Duplicates from Sorted Array](https://github.com/woodenchalet/LeetCode_problems/blob/master/remove_duplicates.py)   | Yes         | 5.53%        |
