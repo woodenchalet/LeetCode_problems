@@ -11,7 +11,7 @@
 #       "ddddddddddddddddddddddddddddddd" \
 #       "ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
 
-str = 'abba'
+str = 'babad'
 longest = ''
 index = 0
 
@@ -20,24 +20,33 @@ if len(str) == 1:
 else:
     for char in str:
         count = 0
+        temp_odd = char
+        temp_even = char
         temp = ''
-        if str[index - count] == str[index + count]:
-            while index - count >= 0 and index + count < len(str) and str[index - count] == str[index + count]:
-                if count == 0:
-                    temp += char
-                else:
-                    temp = str[index - count] + temp + str[index + count]
-                count += 1
-        elif str[index - count] == str[index + count + 1]:
-            while index + count + 1 < len(str) and index - count >= 0 and str[index - count] == str[index + count + 1]:
-                temp = str[index - count] + temp + str[index + count + 1]
-                count += 1
+
+        while index + count + 1 < len(str) and index - count >= 0 \
+                and str[index - count] == str[index + count + 1]:
+            # abba
+            if count == 0:
+                temp_even += char
+            else:
+                temp_even = str[index - count] + temp_even + str[index + count + 1]
+            count += 1
+
+        count = 0
+        while index - count - 1 >= 0 and index + count + 1 < len(str) \
+                and str[index - count - 1] == str[index + count + 1]:
+            # aba
+            temp_odd = str[index - count - 1] + temp_odd + str[index + count + 1]
+            count += 1
+
+        index += 1
+        if len(temp_odd) > len(temp_even):
+            temp = temp_odd
         else:
-            continue
+            temp = temp_even
 
         if len(temp) > len(longest):
             longest = temp
-
-        index += 1
 
     print longest
