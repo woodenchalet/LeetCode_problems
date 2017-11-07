@@ -2,7 +2,7 @@
 
 def is_palindrome(num):
     """
-    :type x: int
+    :type num: int
     :rtype: bool
     """
     if num < 0:
