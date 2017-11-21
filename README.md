@@ -17,3 +17,4 @@ Will be just solve the question. With acceptable Time complexity.
 | [26. Remove Duplicates from Sorted Array](https://github.com/woodenchalet/LeetCode_problems/blob/master/remove_duplicates.py)   | Yes         | 5.53%        |
 | [5. Longest Palindromic Substring](https://github.com/woodenchalet/LeetCode_problems/blob/master/remove_duplicates.py)   | No         | 8.07%        |
 | [ 9. Palindrome Number](https://github.com/woodenchalet/LeetCode_problems/blob/master/nine_palindrome_number.py)   | No         | 46.56 %        |
+| [ 88. Merge Sorted Array](https://github.com/woodenchalet/LeetCode_problems/blob/master/eighty_eight_merge_sorted_array.py)   | No         | 33.25 %        |
