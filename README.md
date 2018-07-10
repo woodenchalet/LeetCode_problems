@@ -3,10 +3,12 @@
 [![Python](https://img.shields.io/badge/python-2.7.10-blue.svg)](https://www.python.org/)
 [![Motto](https://img.shields.io/badge/motto-good%20good%20study%2C%20day%20day%20up-red.svg)](https://en.wikipedia.org/wiki/Day_Day_Up)
 
+### Second iteration
+Write the best possible solution.
+
 ### First iteration
 Will be just solve the question. With acceptable Time complexity.
 
-### Questions table
 | question      | unit test      | Runtime beat  |
 | ------------- |:-------------:| -----:        |
 | [3. Longest Substring Without Repeating Characters](https://github.com/woodenchalet/LeetCode_problems/blob/master/three_longest_substring.py)| Yes         | 76.89%        |
@@ -18,3 +20,4 @@ Will be just solve the question. With acceptable Time complexity.
 | [5. Longest Palindromic Substring](https://github.com/woodenchalet/LeetCode_problems/blob/master/remove_duplicates.py)   | No         | 8.07%        |
 | [ 9. Palindrome Number](https://github.com/woodenchalet/LeetCode_problems/blob/master/nine_palindrome_number.py)   | No         | 46.56 %        |
 | [ 88. Merge Sorted Array](https://github.com/woodenchalet/LeetCode_problems/blob/master/eighty_eight_merge_sorted_array.py)   | No         | 33.25 %        |
+
