@@ -33,7 +33,7 @@ def add_two_numbers(num_one, num_two):
     """
     dummy_head = ListNode(0)
     carry = 0
-    point_one = num_one 
+    point_one = num_one
     point_two = num_two
     current = dummy_head
     while point_one or point_two:
@@ -50,7 +50,6 @@ def add_two_numbers(num_one, num_two):
         current.next = ListNode(1)
 
     return dummy_head.next
-
 
 
 class ListNode(object):
